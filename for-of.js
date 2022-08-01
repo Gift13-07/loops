@@ -1,8 +1,8 @@
 //The for...of statement creates a loop iterating over iterable objects//
-let array = ['a', 'b', 'c'];
+const array1 = ['a', 'b', 'c'];
 
-for (let result of array) {
-  console.log(result);
+for (const element of array1) {
+  console.log(element);
 }
 
 // expected output: "a"
